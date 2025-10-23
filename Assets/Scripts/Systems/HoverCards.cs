@@ -9,8 +9,7 @@ namespace Board
         private LayerMask hitMask;
         private InputAction mousePositionAction;
         private InputAction leftClickAction;
-
-
+        
         void Start()
         {
             hitMask = LayerMask.GetMask("Moveable");
