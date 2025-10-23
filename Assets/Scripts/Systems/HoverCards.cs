@@ -45,6 +45,7 @@ namespace Board
             }
         }
 
+        
         private void ResetHovered()
         {
             SpriteRenderer sprite = hoveredTransform.GetComponent<SpriteRenderer>();
